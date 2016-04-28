@@ -33,7 +33,7 @@ public:
                 first = doubleSum / candidates[i] - 1 - 2 * (candidates[i] / 2 - 1);
             else if (candidates[i] % 2 != 0)
                 first = doubleSum / candidates[i] - 2 * (candidates[i] / 2);
-                oneElem.push_back(first / 2);
+            oneElem.push_back(first / 2);
             int count = 1;
             while (count < candidates[i]){
                 first += 2;
